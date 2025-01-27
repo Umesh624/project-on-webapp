@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="webpage style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>A Basic To-Do Webapp</h1>
+        
+        <!-- Add Task Section -->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <!-- Pending Tasks -->
+        <h2>Pending Tasks</h2>
+        <ul id="pendingTasksList"></ul>
+
+        <!-- Completed Tasks -->
+        <h2>Completed Tasks</h2>
+        <ul id="completedTasksList"></ul>
+    </div>
+
+    <script src="webpage script.js"></script>
+</body>
+</html>
